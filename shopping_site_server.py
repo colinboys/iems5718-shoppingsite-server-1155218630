@@ -27,7 +27,8 @@ app.add_middleware(
 
 Base = declarative_base()
 
-engine = create_engine("mysql://root:lin001524%40@127.0.0.1:3306/shopping_db")
+engine = create_engine("mysql+pymysql://admin:LIN001524@database-1.cdu8y6esawv.ap-southeast-1.rds.amazonaws.com:3306/shopping_db")
+
 SessionLocal = sessionmaker(autocommit=False, bind=engine)
 
 # static file
