@@ -44,20 +44,6 @@
           </mappings>
         </serverdata>
       </paths>
-      <paths name="root@36.133.150.114:11132">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="root@36.133.150.114:11132 password">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
     </serverData>
   </component>
 </project>
